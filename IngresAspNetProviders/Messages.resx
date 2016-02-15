@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectionStringNotFound" xml:space="preserve">
+    <value>The connection name '{0}' was not found in the applications configuration or the connection string is empty.</value>
+  </data>
+  <data name="AccountLockedOut" xml:space="preserve">
+    <value>The user account has been locked out.</value>
+  </data>
+  <data name="CustomPasswordValidationFailed" xml:space="preserve">
+    <value>The custom password validation failed.</value>
+  </data>
+  <data name="InvalidPasswordAnswer" xml:space="preserve">
+    <value>The password-answer supplied is invalid.</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>The E-mail supplied is invalid.</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>The password supplied is invalid.  Passwords must conform to the password strength requirements configured for the default provider.</value>
+  </data>
+  <data name="InvalidProviderUserKey" xml:space="preserve">
+    <value>The provider user key supplied is invalid.  It must be of type System.Guid.</value>
+  </data>
+  <data name="InvalidPasswordQuestion" xml:space="preserve">
+    <value>The password-question supplied is invalid.  Note that the current provider configuration requires a valid password question and answer.  As a result, a CreateUser overload that accepts question and answer parameters must also be used.</value>
+  </data>
+  <data name="ValueTooBig" xml:space="preserve">
+    <value>The value '{0}' can not be greater than '{1}'.</value>
+  </data>
+  <data name="UserAlreadyNotInRole" xml:space="preserve">
+    <value>The user '{0}' is already not in role '{1}'.</value>
+  </data>
+  <data name="PasswordResetNotConfigured" xml:space="preserve">
+    <value>This provider is not configured to allow password resets. To enable password reset, set enablePasswordReset to "true" in the configuration file.</value>
+  </data>
+  <data name="ValueMustBePositiveInteger" xml:space="preserve">
+    <value>The value must be a positive 32-bit integer for property '{0}'.</value>
+  </data>
+  <data name="ParameterCollectionEmpty" xml:space="preserve">
+    <value>The collection parameter '{0}' should not be empty.</value>
+  </data>
+  <data name="HashedPasswordsCannotBeDecoded" xml:space="preserve">
+    <value>Hashed passwords cannot be decoded.</value>
+  </data>
+  <data name="RoleNotFound" xml:space="preserve">
+    <value>The role '{0}' was not found.</value>
+  </data>
+  <data name="RoleAlreadyExists" xml:space="preserve">
+    <value>The role '{0}' already exists.</value>
+  </data>
+  <data name="ProviderNotFound" xml:space="preserve">
+    <value>Provider '{0}' was not found.</value>
+  </data>
+  <data name="ValueMustBeNonNegativeInteger" xml:space="preserve">
+    <value>The value must be a non-negative 32-bit integer for property '{0}'.</value>
+  </data>
+  <data name="ValueMustBeBoolean" xml:space="preserve">
+    <value>The value must be boolean (true or false) for property '{0}'.</value>
+  </data>
+  <data name="RoleNotEmpty" xml:space="preserve">
+    <value>This role cannot be deleted because there are users present in it.</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>The user was not found in the database.</value>
+  </data>
+  <data name="ParameterArrayEmpty" xml:space="preserve">
+    <value>The array parameter '{0}' should not be empty.</value>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>The password supplied is wrong.</value>
+  </data>
+  <data name="MembershipUserNotFound" xml:space="preserve">
+    <value>The user was not found.</value>
+  </data>
+  <data name="PasswordRetrievalNotSupported" xml:space="preserve">
+    <value>This Membership Provider has not been configured to support password retrieval.</value>
+  </data>
+  <data name="MoreThanOneUserWithEmail" xml:space="preserve">
+    <value>More than one user has the specified e-mail address.</value>
+  </data>
+  <data name="PasswordTooLong" xml:space="preserve">
+    <value>The password is too long: it must not exceed 128 chars after encrypting.</value>
+  </data>
+  <data name="PasswordAnswerWrong" xml:space="preserve">
+    <value>The password-answer supplied is wrong.</value>
+  </data>
+  <data name="PageIndexInvalid" xml:space="preserve">
+    <value>The pageIndex must be greater than or equal to zero.</value>
+  </data>
+  <data name="PageSizeInvalid" xml:space="preserve">
+    <value>The pageSize must be greater than zero.</value>
+  </data>
+  <data name="PageIndexAndPageSizeCombinationInvalid" xml:space="preserve">
+    <value>The combination of pageIndex and pageSize cannot exceed the maximum value of System.Int32.</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>An unknown error occurred.</value>
+  </data>
+  <data name="ParameterContainsCommas" xml:space="preserve">
+    <value>The parameter '{0}' must not contain commas.</value>
+  </data>
+  <data name="ParameterEmpty" xml:space="preserve">
+    <value>The parameter '{0}' must not be empty.</value>
+  </data>
+  <data name="AttributeNotRecognized" xml:space="preserve">
+    <value>Attribute not recognized '{0}'</value>
+  </data>
+  <data name="ProviderUnknownError" xml:space="preserve">
+    <value>The Provider encountered an unknown error.</value>
+  </data>
+  <data name="NeedMoreNonAlphanumericChars" xml:space="preserve">
+    <value>Non alpha numeric characters in '{0}' needs to be greater than or equal to '{1}'.</value>
+  </data>
+  <data name="DoesNotMatchRegex" xml:space="preserve">
+    <value>The parameter '{0}' does not match the regular expression specified in config file.</value>
+  </data>
+  <data name="ParameterTooLong" xml:space="preserve">
+    <value>The parameter '{0}' is too long: it must not exceed {1} chars in length.</value>
+  </data>
+  <data name="DuplicateArrayElement" xml:space="preserve">
+    <value>The array '{0}' should not contain duplicate values.</value>
+  </data>
+  <data name="UserAlreadyInRole" xml:space="preserve">
+    <value>The user '{0}' is already in role '{1}'.</value>
+  </data>
+  <data name="PasswordFormatInvalid" xml:space="preserve">
+    <value>Password format specified is invalid.</value>
+  </data>
+  <data name="ApplicationNameTooLong" xml:space="preserve">
+    <value>The application name is too long.</value>
+  </data>
+  <data name="HashedPasswordsCannotBeRetrieved" xml:space="preserve">
+    <value>Configured settings are invalid: Hashed passwords cannot be retrieved. Either set the password format to different type, or set supportsPasswordRetrieval to false.</value>
+  </data>
+  <data name="MinRequiredNonalphCharGreaterThanMinRequiredPasswordLength" xml:space="preserve">
+    <value>The minRequiredNonalphanumericCharacters can not be greater than minRequiredPasswordLength.</value>
+  </data>
+  <data name="PasswordTooShort" xml:space="preserve">
+    <value>The length of parameter '{0}' needs to be greater or equal to '{1}'.</value>
+  </data>
+  <data name="UserWasNotFound" xml:space="preserve">
+    <value>The user '{0}' was not found.</value>
+  </data>
+  <data name="IngresExceptionErrorMessage" xml:space="preserve">
+    <value>An Ingres exception occurred. Please check your event log for details.</value>
+  </data>
+  <data name="ErrorRollingBackTransaction" xml:space="preserve">
+    <value>An error occurred whilst attempting to rollback a transaction</value>
+  </data>
+  <data name="EmailRegex" xml:space="preserve">
+    <value>^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$</value>
+  </data>
+  <data name="ApplicationIdNotFound" xml:space="preserve">
+    <value>No Application Id is available. Has an Application been created yet?</value>
+  </data>
+  <data name="IngresMembershipProvider" xml:space="preserve">
+    <value>Ingres Membership Provider</value>
+  </data>
+  <data name="IngresRoleProvider" xml:space="preserve">
+    <value>Ingres Role Provider</value>
+  </data>
+  <data name="UnkownIngresAspNetProvider" xml:space="preserve">
+    <value>Unkown Ingres Asp Net Provider</value>
+  </data>
+  <data name="GuidRegex" xml:space="preserve">
+    <value>^(\{){0,1}[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}(\}){0,1}$</value>
+  </data>
+  <data name="MoreThanOneRowWasAffectedWhenAttemptingToChangeAPassword" xml:space="preserve">
+    <value>More than one row was affected when attempting to change a password.</value>
+  </data>
+  <data name="MoreThanOneRowWasAffected" xml:space="preserve">
+    <value>More than one row was affected.</value>
+  </data>
+  <data name="UserDoesNotExist" xml:space="preserve">
+    <value>User does not exist</value>
+  </data>
+  <data name="ASingleUserShouldHaveBeenDeleted" xml:space="preserve">
+    <value>A single user should have been deleted.</value>
+  </data>
+  <data name="TheUserIsLockedOut" xml:space="preserve">
+    <value>The user is locked out.</value>
+  </data>
+  <data name="PasswordIsStoredInAUnrecognisedFormat" xml:space="preserve">
+    <value>The password is stored in a unrecognised format.</value>
+  </data>
+  <data name="ErrorInTheGetPasswordMethod" xml:space="preserve">
+    <value>An error occurred in retrieving data from the data provider in the GetPassword method.</value>
+  </data>
+  <data name="SuppliedUserNameWasNotFound" xml:space="preserve">
+    <value>The supplied user name was not found.</value>
+  </data>
+  <data name="UsernameMustBeSuppliedToGetAUser" xml:space="preserve">
+    <value>A username must be supplied to get a User.</value>
+  </data>
+  <data name="FailedToUpdateLastActivityDate" xml:space="preserve">
+    <value>Failed to update last activity date.</value>
+  </data>
+  <data name="YouCanNotUnlockAUserWithoutSuplyingAValidUserName" xml:space="preserve">
+    <value>You can not unlock a user without suplying a valid userName.</value>
+  </data>
+  <data name="PasswordResetIsNotEnabled" xml:space="preserve">
+    <value>Password reset is not enabled.</value>
+  </data>
+  <data name="PasswordAnswerRequiredForPasswordReset" xml:space="preserve">
+    <value>Password answer required for password reset.</value>
+  </data>
+  <data name="ResetPasswordCanceledDueToPasswordValidationFailure" xml:space="preserve">
+    <value>Reset password canceled due to password validation failure.</value>
+  </data>
+  <data name="TheSuppliedUserNameIsNotFound" xml:space="preserve">
+    <value>The supplied user name is not found.</value>
+  </data>
+  <data name="IncorrectPasswordAnswer" xml:space="preserve">
+    <value>Incorrect password answer.</value>
+  </data>
+  <data name="PasswordNotReset" xml:space="preserve">
+    <value>Password not Reset.</value>
+  </data>
+  <data name="UniqueEmailRequired" xml:space="preserve">
+    <value>A unique email is required.</value>
+  </data>
+  <data name="FailedToUpdateTheLastActivityDate" xml:space="preserve">
+    <value>Failed to update the Last Activity Date</value>
+  </data>
+  <data name="FailedToUpdateMembershipDetails" xml:space="preserve">
+    <value>Failed to update the Membership details.</value>
+  </data>
+  <data name="UnableToUpdateFailureCountAndWindowStart" xml:space="preserve">
+    <value>Unable to update failure count and window start.</value>
+  </data>
+  <data name="UnableToUpdateFailureCount" xml:space="preserve">
+    <value>Unable to update failure count.</value>
+  </data>
+  <data name="ErrorTryingToUpdateTheLastLoginDate" xml:space="preserve">
+    <value>An error occurred whilst trying to update the LastLoginDate.</value>
+  </data>
+  <data name="CannotUnencodeAHashedPassword" xml:space="preserve">
+    <value>Cannot unencode a hashed password.</value>
+  </data>
+  <data name="UnsupportedPasswordFormat" xml:space="preserve">
+    <value>Unsupported password format.</value>
+  </data>
+  <data name="ErrorAttemptingToCreateAUser" xml:space="preserve">
+    <value>An error occurred whilst attempting to create a user.</value>
+  </data>
+  <data name="CouldNotRetrieveTheApplicationId" xml:space="preserve">
+    <value>Could not retrieve the Application Id</value>
+  </data>
+  <data name="ApplicationNotFoundInTheDatabase" xml:space="preserve">
+    <value>The Application was not found in the database.</value>
+  </data>
+  <data name="TheSuppliedUserIsLockedOut" xml:space="preserve">
+    <value>The supplied user is locked out.</value>
+  </data>
+  <data name="MoreThanOneUserWouldHaveBeenDeleted" xml:space="preserve">
+    <value>More than one user would have been deleted.</value>
+  </data>
+  <data name="ApplicationNamesCannotContainCommas" xml:space="preserve">
+    <value>Application names cannot contain commas.</value>
+  </data>
+  <data name="ValidApplicationNameNotSet" xml:space="preserve">
+    <value>A valid Application name has not yet been set.</value>
+  </data>
+  <data name="MustSpecifyApplicationName" xml:space="preserve">
+    <value>You must specify a valid value for the Application Name.</value>
+  </data>
+  <data name="NoConnectionInformationSpecifiedInApplicationConfigurationFile" xml:space="preserve">
+    <value>No connection information specified in application configuration file.</value>
+  </data>
+</root>

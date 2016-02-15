@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIngresAspNetProviders", "TestIngresAspNetProviders\TestIngresAspNetProviders.csproj", "{933E4AF3-14E5-4599-B654-8BAD434AB7ED}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApplication", "DemoWebApplication\DemoWebApplication.csproj", "{022F75C2-1975-4710-9368-A95ADF9B77FD}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionStringGenerator", "ConnectionStringGenerator\ConnectionStringGenerator.csproj", "{26203A08-A1C9-4558-8641-5451A1FABF46}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IngresAspNetProvidersSetup", "IngresAspNetProvidersSetup\IngresAspNetProvidersSetup.vdproj", "{B48A9623-C14D-4704-B1C4-3E6300C69E01}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngresAspNetProviders", "IngresAspNetProviders\IngresAspNetProviders.csproj", "{29E99803-70F2-4A6A-9AA6-61106212A959}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug - No Setup|Any CPU = Debug - No Setup|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{933E4AF3-14E5-4599-B654-8BAD434AB7ED}.Debug - No Setup|Any CPU.ActiveCfg = Debug - No Setup|Any CPU
+		{933E4AF3-14E5-4599-B654-8BAD434AB7ED}.Debug - No Setup|Any CPU.Build.0 = Debug - No Setup|Any CPU
+		{933E4AF3-14E5-4599-B654-8BAD434AB7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933E4AF3-14E5-4599-B654-8BAD434AB7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933E4AF3-14E5-4599-B654-8BAD434AB7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933E4AF3-14E5-4599-B654-8BAD434AB7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022F75C2-1975-4710-9368-A95ADF9B77FD}.Debug - No Setup|Any CPU.ActiveCfg = Debug - No Setup|Any CPU
+		{022F75C2-1975-4710-9368-A95ADF9B77FD}.Debug - No Setup|Any CPU.Build.0 = Debug - No Setup|Any CPU
+		{022F75C2-1975-4710-9368-A95ADF9B77FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022F75C2-1975-4710-9368-A95ADF9B77FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022F75C2-1975-4710-9368-A95ADF9B77FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022F75C2-1975-4710-9368-A95ADF9B77FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26203A08-A1C9-4558-8641-5451A1FABF46}.Debug - No Setup|Any CPU.ActiveCfg = Debug|Any CPU
+		{26203A08-A1C9-4558-8641-5451A1FABF46}.Debug - No Setup|Any CPU.Build.0 = Debug|Any CPU
+		{26203A08-A1C9-4558-8641-5451A1FABF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26203A08-A1C9-4558-8641-5451A1FABF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26203A08-A1C9-4558-8641-5451A1FABF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26203A08-A1C9-4558-8641-5451A1FABF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48A9623-C14D-4704-B1C4-3E6300C69E01}.Debug - No Setup|Any CPU.ActiveCfg = Debug
+		{B48A9623-C14D-4704-B1C4-3E6300C69E01}.Debug|Any CPU.ActiveCfg = Debug
+		{B48A9623-C14D-4704-B1C4-3E6300C69E01}.Debug|Any CPU.Build.0 = Debug
+		{B48A9623-C14D-4704-B1C4-3E6300C69E01}.Release|Any CPU.ActiveCfg = Release
+		{B48A9623-C14D-4704-B1C4-3E6300C69E01}.Release|Any CPU.Build.0 = Release
+		{29E99803-70F2-4A6A-9AA6-61106212A959}.Debug - No Setup|Any CPU.ActiveCfg = Debug - No Setup|Any CPU
+		{29E99803-70F2-4A6A-9AA6-61106212A959}.Debug - No Setup|Any CPU.Build.0 = Debug - No Setup|Any CPU
+		{29E99803-70F2-4A6A-9AA6-61106212A959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E99803-70F2-4A6A-9AA6-61106212A959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E99803-70F2-4A6A-9AA6-61106212A959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E99803-70F2-4A6A-9AA6-61106212A959}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

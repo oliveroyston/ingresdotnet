@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="RoleProviderWS.asmx.cs" Class="DemoWebApplication.RoleProviderWS" %>
